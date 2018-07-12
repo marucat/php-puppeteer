@@ -7,7 +7,7 @@ The example is developed based on [Yii2](https://github.com/yiisoft/yii2), but I
 
 # Controller/Action
 ```php
-use Its404\PhpPuppeteer\Browser;
+use Marucat\PhpPuppeteer\Browser;
 
 public function actionPdf()
 {
@@ -48,7 +48,7 @@ In `font.php`, 3 kind of font files are imported
 ```
 
 # Output
-Here is the [output PDF file](https://github.com/its404/php-puppeteer/blob/master/examples/font-example/font.pdf)
+Here is the [output PDF file](https://github.com/marucat/php-puppeteer/blob/master/examples/font-example/font.pdf)
 
 # Troubleshooting
 

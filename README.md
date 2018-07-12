@@ -25,9 +25,9 @@ sudo chmod -R o+rx /usr/lib/node_modules/puppeteer/.local-chromium
 ```
 
 # Installation
-Install `its404/php-puppeteer` using Composer.
+Install `marucat/php-puppeteer` using Composer.
 ~~~
-composer require its404/php-puppeteer
+composer require marucat/php-puppeteer
 ~~~
 # Usage
 ## Parameters
@@ -58,7 +58,7 @@ $config  = [
 You need to import this namespace at the top of your PHP class
 
 ~~~
-use Its404\PhpPuppeteer\Browser;
+use Marucat\PhpPuppeteer\Browser;
 ~~~
 
 
@@ -138,5 +138,5 @@ You can add following html code in the html where you'd like to start a new page
 
 # More Examples?
 
-You can find more examples from [here](https://github.com/its404/php-puppeteer/tree/master/examples)
+You can find more examples from [here](https://github.com/marucat/php-puppeteer/tree/master/examples)
 

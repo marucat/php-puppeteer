@@ -1,5 +1,5 @@
 <?php
-namespace Its404\PhpPuppeteer;
+namespace Marucat\PhpPuppeteer;
 
 class Browser
 {
