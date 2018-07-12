@@ -19,7 +19,7 @@ async function render() {
 
   const browser = await puppeteer.launch({
     ignoreHTTPSErrors: params.ignoreHttpsErrors,
-    args: ['--disable-gpu', '--no-sandbox', '--disable-setuid-sandbox'],
+    args: ['--disable-gpu', '--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage'],
   });
   const page = await browser.newPage();
 

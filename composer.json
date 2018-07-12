@@ -1,5 +1,5 @@
 {
-	"name" : "its404/php-puppeteer",
+	"name" : "marucat/php-puppeteer",
 	"description" : "PHP Wrapper for Google Chrome Puppeteer",
 	"keywords" : [
 		"PHP",
@@ -7,10 +7,10 @@
 		"PDF",
 		"Screenshot"
 	],
-	"homepage" : "http://github.com/its404/php-puppeteer",
+	"homepage" : "http://github.com/marucat/php-puppeteer",
 	"authors" : [{
-			"name" : "its404",
-			"email" : "benwk424@gmail.com",
+			"name" : "marucat",
+			"email" : "belolutskaya@gmail.com",
 			"role" : "Developer"
 		}
 	],
@@ -21,7 +21,7 @@
 	},
 	"autoload" : {
 		"psr-4" : {
-			"Its404\\PhpPuppeteer\\" : "src"
+			"Marucat\\PhpPuppeteer\\" : "src"
 		}
 	}
 }
